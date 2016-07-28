@@ -1,3 +1,5 @@
 #!/usr/bin/env ruby
 
 require "bundler_cli"
+
+BundlerCli::Cli.say(ARGV[0])
